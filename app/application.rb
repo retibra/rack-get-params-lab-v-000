@@ -30,7 +30,6 @@ class Application
         else
           resp.write "We don't have that #{item_to_add}\n"
         end
-      end
     else
       resp.write "Path Not Found"
     end
